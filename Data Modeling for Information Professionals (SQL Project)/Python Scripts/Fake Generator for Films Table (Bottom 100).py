@@ -19,7 +19,7 @@ for i in range(41):
     idnum = 1
     sum = idnum + i
     
-    #Pulling a random choice from top 250 movies from IMDB
+    #Pulling a random choice from bottom 100 movies from IMDB
     movies = ia.get_bottom100_movies()
     movie = random.choice(movies)
     year = movie['year']
