@@ -16,7 +16,7 @@ def enablePrint():
 #for loop one to generate all of the SQL items
 for i in range(116):
     #generating ID
-    idnum = 42
+    idnum = 1
     sum = idnum + i
     
     #Pulling a random choice from top 250 movies from IMDB
